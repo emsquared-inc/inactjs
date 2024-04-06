@@ -1,0 +1,18 @@
+:root {
+	--highlight-bg-color:#00e;
+	--highlight-fg-color:#fff;
+}
+.bluetext {
+	color: var(--highlight-bg-color);
+}
+table {
+	border-collapse: collapse;
+	margin: 1%;
+}
+th {
+	color: var(--highlight-fg-color);
+	background-color: var(--highlight-bg-color);
+}
+table,th,td {
+	border: 1px solid var(--highlight-bg-color);
+}
